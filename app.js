@@ -7,7 +7,7 @@ function agregarAmigo() {
   
   amigo 
   ? (amigos.push(amigo), limpiar("amigo")) 
-  : alert("Por favor debe ingresar un nombre valido");
+  : alert("Por favor, inserte un nombre.");
 
   console.log(amigos);
 }
