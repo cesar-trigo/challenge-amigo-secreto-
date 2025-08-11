@@ -29,7 +29,7 @@ function imprimirNombre(e, contenedor) {
 
 function sortearAmigo() {
   if (amigos.length > 0) {
-    let amigoSecreto = Math.floor(Math.random() * amigos.length);
+    let amigoSecreto = amigos[Math.floor(Math.random() * amigos.length)];
     imprimirNombre([amigoSecreto], $resultado);
   } else {
     alert("Por favor, inserte al menos un nombre.");
