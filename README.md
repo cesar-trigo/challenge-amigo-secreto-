@@ -1,5 +1,5 @@
 🎯 Amigo Secreto - JavaScript
-Este es un proyecto que permite:
+Este es un proyecto permite:
 
 Agregar nombres de amigos a una lista.
 
